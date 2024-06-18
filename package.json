@@ -1,0 +1,27 @@
+{
+  "name": "hardhat-diamond-example",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "npx hardhat node",
+    "compile": "npx hardhat compile",
+    "dev": "npx hardhat node --hostname 192.168.1.100",
+    "deploy:dev": "npx hardhat --network dev run scripts/deploy.ts && npx hardhat compile"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "3.0.5",
+    "@typechain/ethers-v6": "0.5.1",
+    "@typechain/hardhat": "9.1.0",
+    "ethers": "6.11.1",
+    "hardhat": "2.22.5",
+    "hardhat-deploy": "0.12.2",
+    "hardhat-deploy-ethers": "0.4.1",
+    "hardhat-gas-reporter": "2.2.0",
+    "hardhat-typechain": "0.3.5",
+    "ts-node": "10.9.2",
+    "typechain": "8.3.2",
+    "typescript": "5.4.3"
+  },
+  "engines": {
+    "node": "18"
+  }
+}
